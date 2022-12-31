@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Card Game</title>
+</head>
+
+<body>      
+
+    <div class="container text-center">
+        <div id="tudo">
+            <div id="divisao">
+                    <div id="welcome">
+                    <h2>Welcome to the Card Game!</h2>
+                    <p>Each player will receive a deck of cards</p>
+                    <p>Click Play to start the round</p>
+                    <p>The game will end after all 52 cards in the deck have been used</p>
+                    <p>Good luck and have fun!</p>   
+                    <h4>Enter your name and click play</h4>
+                    <input  type="text" id="idNome" maxlength="20">
+                    <p id="prevent"></p>             
+                </div>
+
+                <div>                  
+                    <button type="button" class="row btn btn-warning" id="IdBotao">PLAY!</button>
+                </div>          
+            </div>
+            
+            <div id="game">  
+                        
+                <div id="jogadores">
+
+                    <div id="player1">                                       
+                    </div>               
+                
+                    <div id="player2">                                    
+                    </div>
+
+                </div>
+
+                <div>                           
+                    <h4 id="placar"></h4>
+                </div>
+
+                <div id="cartas">            
+                    <div>                    
+                        <p id="player1-card"></p>
+                    </div>              
+                    <div>
+                        <p id="player2-card"></p>
+                    </div>
+                </div>
+
+                <div>                           
+                    <h4 id="result"></h4>
+                </div>         
+
+            </div>                   
+
+            <div class="footer">        
+                <span>Developed por Jacby - 2022</span>        
+            </div>
+        </div>
+    </div>         
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+</body>
+</html>
