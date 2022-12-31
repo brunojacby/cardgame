@@ -38,6 +38,7 @@
     border-radius: 50%;
     width: 50px;
     margin-top: -15px;
+    
 }
 
 .divisao {
@@ -72,6 +73,10 @@
     color: yellow;    
 }
 
+.loss {
+    filter: grayscale(100%);
+    opacity: 0.8;    
+}
 
 
 

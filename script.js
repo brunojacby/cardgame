@@ -139,35 +139,35 @@ function playGame() {
       Number(card2.slice(0, card2.length - 1))
     ) {
       document.getElementById("result").innerHTML = "Round tied";
-      document.getElementById("player1").innerHTML = `<h4>Player ${usuario}</h4><br><img src="/imagens/avatarP1.png" class="avatar" alt="Player">`
-      document.getElementById("player2").innerHTML = `<h4>Jacby Robot</h4><br><img src="/imagens/bot.jpg" class="avatar" alt="bot">`
+      document.getElementById("player1").innerHTML = `<h4>Player ${usuario}</h4><br><img src="https://github.com/brunojacby/cardgame/blob/master/imagens/avatarP1.png?raw=true" class="avatar" alt="Player">`
+      document.getElementById("player2").innerHTML = `<h4>Jacby Robot</h4><br><img src="https://github.com/brunojacby/cardgame/blob/master/imagens/bot.jpg?raw=true" class="avatar" alt="bot">`
       document.getElementById("player1-card").innerHTML = `
-        <img src="/imagens/${card1}.svg" alt="" width="100" height="150"/>`;
+        <img src="https://raw.githubusercontent.com/brunojacby/cardgame/89cae1e9699794671c31a8a6c951b9669a456f61/imagens/${card1}.svg" alt="" width="100" height="150"/>`;
 
       document.getElementById("player2-card").innerHTML = `
-        <img src="/imagens/${card2}.svg" alt="" width="100" height="150"/>`;
+        <img src="https://raw.githubusercontent.com/brunojacby/cardgame/89cae1e9699794671c31a8a6c951b9669a456f61/imagens/${card2}.svg" alt="" width="100" height="150"/>`;
     } else if (
       Number(card1.slice(0, card1.length - 1)) >
       Number(card2.slice(0, card2.length - 1))
     ) {
       document.getElementById("result").innerHTML = `${usuario} Win`;
-      document.getElementById("player1").innerHTML = `<h4>Player ${usuario}</h4><br><img src="/imagens/avatarP1.png" class="avatar" alt="Player">`
-      document.getElementById("player2").innerHTML = `<h4>Jacby Robot</h4><br><img src="/imagens/bot.jpg" class="avatar" alt="bot">`
+      document.getElementById("player1").innerHTML = `<h4>Player ${usuario}</h4><br><img src="https://github.com/brunojacby/cardgame/blob/master/imagens/avatarP1.png?raw=true" class="avatar" alt="Player">`
+      document.getElementById("player2").innerHTML = `<h4>Jacby Robot</h4><br><img src="https://github.com/brunojacby/cardgame/blob/master/imagens/bot.jpg?raw=true" class="avatar loss" alt="bot">`
       document.getElementById("player1-card").innerHTML = `
-        <img src="/imagens/${card1}.svg" alt="" width="100" height="150"/>`;
+        <img src="https://raw.githubusercontent.com/brunojacby/cardgame/89cae1e9699794671c31a8a6c951b9669a456f61/imagens/${card1}.svg" alt="" width="100" height="150"/>`;
 
       document.getElementById("player2-card").innerHTML = `
-        <img src="/imagens/${card2}.svg" alt="" width="100" height="150"/>`;
+        <img src="https://raw.githubusercontent.com/brunojacby/cardgame/89cae1e9699794671c31a8a6c951b9669a456f61/imagens/${card2}.svg" alt="" width="100" height="150"/>`;
       placarP1++;
     } else {
       document.getElementById("result").innerHTML = "Robot Win";
-      document.getElementById("player1").innerHTML = `<h4>Player ${usuario}</h4><br><img src="/imagens/avatarP1.png" class="avatar" alt="Player">`
-      document.getElementById("player2").innerHTML = `<h4>Jacby Robot</h4><br><img src="/imagens/bot.jpg" class="avatar" alt="bot">`
+      document.getElementById("player1").innerHTML = `<h4>Player ${usuario}</h4><br><img src="https://github.com/brunojacby/cardgame/blob/master/imagens/avatarP1.png?raw=true" class="avatar loss" alt="Player">`
+      document.getElementById("player2").innerHTML = `<h4>Jacby Robot</h4><br><img src="https://github.com/brunojacby/cardgame/blob/master/imagens/bot.jpg?raw=true" class="avatar" alt="bot">`
       document.getElementById("player1-card").innerHTML = `
-        <img src="/imagens/${card1}.svg" alt="" width="100" height="150"/>`;
+        <img src="https://raw.githubusercontent.com/brunojacby/cardgame/89cae1e9699794671c31a8a6c951b9669a456f61/imagens/${card1}.svg" alt="" width="100" height="150"/>`;
 
       document.getElementById("player2-card").innerHTML = `
-        <img src="/imagens/${card2}.svg" alt="" width="100" height="150"/>`;
+        <img src="https://raw.githubusercontent.com/brunojacby/cardgame/89cae1e9699794671c31a8a6c951b9669a456f61/imagens/${card2}.svg" alt="" width="100" height="150"/>`;
       placarP2++;
     }
 
@@ -182,14 +182,14 @@ function playGame() {
       document.getElementById("IdBotao").classList.add('disabled');
       
     } else if (placarP1 > placarP2) {
-      document.getElementById("tudo").innerHTML = `<img src="/imagens/avatarP1.png" class="avatar" alt="Player"><br><h2>${usuario} win the game!</h2><br>
+      document.getElementById("tudo").innerHTML = `<img src="https://github.com/brunojacby/cardgame/blob/master/imagens/avatarP1.png?raw=true" class="avatar" alt="Player"><br><h2>${usuario} win the game!</h2><br>
       <button type="button" class="row btn btn-info" onclick="window.location.reload()">PLAY AGAIN!</button>
       `;
       document.getElementById("placar").innerHTML = ""
       document.getElementById("IdBotao").classList.add('disabled');
       
     } else {
-      document.getElementById("tudo").innerHTML = `<img src="/imagens/bot.jpg" class="avatar" alt="bot"><br><h2>Jacby Robot win the game!</h2><br>
+      document.getElementById("tudo").innerHTML = `<img src="https://github.com/brunojacby/cardgame/blob/master/imagens/bot.jpg?raw=true" class="avatar" alt="bot"><br><h2>Jacby Robot win the game!</h2><br>
       <button type="button" class="row btn btn-info" onclick="window.location.reload()">PLAY AGAIN!</button>`;
       document.getElementById("placar").innerHTML = "";
       document.getElementById("IdBotao").classList.add('disabled');
