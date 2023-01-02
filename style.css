@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url('https://github.com/brunojacby/cardgame/blob/master/imagens/fundo.jpg?raw=true') no-repeat;
+    background: url('imagens/fundo.jpg') no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
