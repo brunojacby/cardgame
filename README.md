@@ -1,10 +1,10 @@
 # Card Game
 
-A card game using HTML, CSS, Bootstrap and JavaScript.
+## A card game using HTML, CSS, Bootstrap and JavaScript.
 
-> Welcome to the Card Game!
+### Welcome to the Card Game!
  
-> Each player will receive a deck of cards
+### Each player will receive a deck of cards
 
 > Click Play to start the round
 
