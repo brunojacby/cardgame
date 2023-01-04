@@ -4,7 +4,7 @@
 
 ### Welcome to the Card Game!
  
-#### Each player will receive a deck of cards
+> Each player will receive a deck of cards
 
 > Click Play to start the round
 
